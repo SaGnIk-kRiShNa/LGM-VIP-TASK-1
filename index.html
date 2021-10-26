@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Try Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="main.css">
+  <script src="script.js"></script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">CompGen</a>
+    </div>
+    <!--NAVBAR-->
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#band">ABOUT</a></li>
+        <li><a href="#tour">Technologies</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Latest Uploads</a></li>
+            <li><a href="#">Extras</a></li>
+            <li><a href="#">Learn More About Us</a></li> 
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="ph1.jpg" alt="CompScience" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Computer's</h3>
+          <p>Without computer's nothing would be possible in today's time.</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="ph2.jpg" alt="CompScience" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Technology</h3>
+          <p>In today's world technology is a part of our life</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="ph31.jpg" alt="WebDevelopment" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Web Development</h3>
+          <p>Most of the things are related to web development in out daily life.</p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!-- Container (The Band Section) -->
+<div id="band" class="container text-center">
+  <h3>Web Development</h3>
+  <p><em>We Are Developers!</em></p>
+  <p>A web developer is well versed in these three technologies. They can read other people’s code and make
+     changes to it. They can find and debug bugs (shortcomings in existing code). A web developer might, at times, work on a new project (a new website) from scratch, or may have to work on an existing website and make it better. A typical day in the life of a web developer involves fixing bugs, developing new features (that is, enhancements) and webpages, and
+     working with other developers to discuss ways to solve problems.</p>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Dennis Ritchie</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="Denis.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo" class="collapse">
+        <p></p>
+        <p>Creator of the language "C".</p>
+        <p>Invented the year 1972</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>James Gosling</strong></p><br>
+      <a href="#demo2" data-toggle="collapse">
+        <img src="Java.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo2" class="collapse">
+        <p></p>
+        <p>Creator of the "language Java".</p>
+        <p>Invented in the year of 1995</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Brendan Eich</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="Js.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo3" class="collapse">
+        <p></p>
+        <p>Inventor of "Java script".</p>
+        <p>In 1995 it was invented.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Container (TOUR Section) -->
+<div id="tour" class="bg-1">
+  <div class="container">
+    <div class="latest">
+    <h3 class="text-center">Latest Technologies</h3>
+    <p class="text-center">Here are some technologies for you,<br> Don't forget to learn them!</p>
+  </div>
+    <div class="colorContainer">
+    <ul class="list-group">
+      <li class="list-group-item">MERN STACK </li>
+      <li class="list-group-item">MEAN STACK </li> 
+      <li class="list-group-item">DJANGO </li> 
+    </ul>
+  </div>
+    <!---->
+    <!--under the latest technologies-->
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="mern1.jpg" alt="Paris" width="400" height="300">
+          <p><strong>MERN STACK</strong></p>
+          <p>Full stack Web Development</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Course</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="mean.jpeg" alt="New York" width="400" height="300">
+          <p><strong>MEAN STACK</strong></p>
+          <p>Full stack Web Development</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Course</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="django.jpg" alt="San Francisco" width="400" height="300">
+          <p><strong>DJNAGO</strong></p>
+          <p>Python based framework.</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Course</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-shopping-cart"></span>Buy Course</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-usd"></span>29$ for each course</label>
+              <input type="text" class="form-control" id="psw" placeholder="Name of the  Course">
+            </div>
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span>Your Mail</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+              <button type="submit" class="btn btn-block">Pay 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          <p><a href="#">Need help?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Give a yooutube Video link -->
+
+<div class="Iframe">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Lf6zONwYeec" title="YouTube video player" frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+ 
+<!--MUst needed-->
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container">
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>Hope to see you again!</em></p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <p class="glyphicon glyphicon-edit"> Leave a message for us!!!</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>West Bengal,Kolkata</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +91 1800 2155 35</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: contact@gmail.com</p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <h3 class="text-center">From The Creators </h3>  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Rahul</a></li>
+    <li><a data-toggle="tab" href="#menu1">Sagnik</a></li>
+    <li><a data-toggle="tab" href="#menu2">Peter</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h2>Rahul, Manager</h2>
+      <p>Man, we've been working so hard till now. Looking forward to catch up with you all soon.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h2>Sagnik, Editor</h2>
+      <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h2>Peter Groff, Developer</h2>
+      <p>Hope you guys enjoy our products,see you soon.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.7507794097432!2d88.32395531443402!3d22.570186938748414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277872899cf17%3A0xe53f2cbf7b6dc248!2sAloka%20Cinema!5e1!3m2!1sen!2sin!4v1634575701175!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Thanks for visiting our page.</p>
+  <p>Copyright &copy; CompanyInc12</p>
+</footer>
+
+</body>
+</html>
